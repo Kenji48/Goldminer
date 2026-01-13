@@ -1,0 +1,11 @@
+
+o arquivo goldminer é o jogo já compilado para linux, ele não vai rodar no windows padrão
+
+home.c é a tela de inicio e tela de score do jogo, o main fica nela, e a partir dele o jogo(goldminer.c) vai ser carregado.
+
+forma correta de se compilar o programa no linux: 
+gcc home.c goldminer.c -o goldMiner
+
+home.c e goldminer devem ser compilados juntos, senão o vai dar erro
+
+input.c deve estar na mesma pasta dos outros arquivos para compilar no linux, mas no windows ele não é necessário
