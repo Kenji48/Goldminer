@@ -83,8 +83,7 @@ void map_generate(int superficie[LARGURA], char *map[ALTURA][LARGURA]){
     for (int y = 0; y < ALTURA; y++){
         for (int x = 0; x < LARGURA; x++){
           //gera o céu acima da superficie
-          //NOTA: aparentemente o código está renderizando de cima para baixo, então y menor que superficie é a parte de cima do mapa
-          //*corrigir*
+          //NOTA: o código está renderizando de cima para baixo, então y menor que superficie é a parte de cima do mapa
           if (y < superficie[x]){
                 map[y][x] = CEU;
             } else {
