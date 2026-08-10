@@ -1,10 +1,29 @@
-#Goldminer
+# Goldminer
 
-Jogo de mineração criado em C para sistemas linux
-Controles de movimentação: a,w,s,d
-Constroles de ação: j,i,k,l
-controle de mudança de modo de ação: m
+Jogo de mineração desenvolvido em **C** para sistemas **Linux**.
 
-Jogo desenvolvido com auxílio de IA como ferramenta de tutoria e aprendizado, sem uso de *vibe coding*. Todo o código foi escrito e compreendido por mim.
+## 🎮 Controles
 
-As notas e documentações presentes no projeto foram escritas por mim.
+### Movimentação
+
+* `W` — Mover para cima
+* `A` — Mover para a esquerda
+* `S` — Mover para baixo
+* `D` — Mover para a direita
+
+### Ações
+
+* `J`
+* `I`
+* `K`
+* `L`
+
+### Mudança de modo de ação
+
+* `M`
+
+## 🤖 Desenvolvimento
+
+Jogo desenvolvido com auxílio de **IA como ferramenta de tutoria e aprendizado**, sem uso de *vibe coding*. Todo o código foi escrito e compreendido por mim.
+
+As notas e documentações presentes no projeto também foram escritas por mim.
