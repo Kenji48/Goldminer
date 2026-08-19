@@ -2,6 +2,11 @@
 
 Jogo de mineração desenvolvido em **C** para sistemas **Linux**.
 
+# Compilação
+### forma correta de se compilar o programa no linux:
+
+gcc home.c goldminer.c -o goldMiner
+
 ## 🎮 Controles
 
 ### Movimentação
